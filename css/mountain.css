@@ -126,7 +126,7 @@
     position: relative;
     z-index: 2;
     text-align: center;
-    color: #fff;
+    color: goldenrod;
   }
   
   .hero-content h1 {
@@ -142,7 +142,6 @@
   /* Styles for Search Filters in Hero */
   .hero-content .search-filters {
     display: inline-block;
-    margin-top: 1rem;
     background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     padding: 1rem;
     border-radius: 5px;
@@ -162,17 +161,26 @@
     border: none;
     border-radius: 5px;
     appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
     background: rgba(255, 255, 255, 0.9);
     color: #333;
     cursor: pointer;
-    background-image: url('data:image/svg+xml;charset=US-ASCII,<svg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%204%205%22><path%20fill%3D%22%23333%22%20d%3D%22M2%200L0%202h4L2%200z%20M0%203l2%202%202-2H0z%22/></svg>');
-    background-repeat: no-repeat;
-    background-position: right 10px center;
-    background-size: 10px 10px;
-    padding-right: 30px;
+    margin-bottom: 1rem;
   }
+
+  .hero-content .btn {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    background-color: #18bc9c;
+    color:bisque;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+
+  
   
   /* Sunrise and Sunset Times Styles */
   .hero-content .sun-times {
