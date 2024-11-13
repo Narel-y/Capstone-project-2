@@ -201,6 +201,9 @@ document.addEventListener('DOMContentLoaded', () => {
       // Fetch and display sunrise/sunset times
       getSunsetForMountain(mountain.coords.lat, mountain.coords.lng)
         .then(data => {
+          mountainExtraDetailsDiv.innerHTML = '';
+      sunTimesDiv.innerHTML = '';
+  
           const sunrise = data.results.sunrise;
           const sunset = data.results.sunset;
           const sunriseP = document.createElement('p');
